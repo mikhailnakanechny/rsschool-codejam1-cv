@@ -5,20 +5,34 @@ body{
     margin-right: auto;
     }
 
-.CV{
-    padding-top: 100px;
-    max-width: 900px;
-    background: aliceblue;
-}
 header {
     position: fixed;
     top: 0;
-    min-width: 80%;
-    max-width: 1024px;
+    left: 0;
+    min-width: 100%;
     background: lightslategray;
     z-index: 3;
     text-align: center;
     margin-left: fill;
+    max-height: 85px;
+}
+
+article {
+    margin: 7px 7px 7px 7px;;
+}
+
+footer{
+    margin: 7px 7px 7px 7px;
+}
+.skromno{
+     margin: 2px 2px 2px 2px;
+}
+
+.CV{
+    padding-top: 50px;
+    max-width: 900px;
+    background: aliceblue;
+    padding-bottom: 10px;
 }
 
 .leftimg {
@@ -29,12 +43,7 @@ header {
 .hello{
     margin: 7px 7px 7px 7px;
     width: 90%;
+    height: 260px;
 }
 
-article {
-    margin: 7px 7px 7px 7px;;
-}
 
-footer{
-    margin: 7px 7px 7px 7px;
-}
