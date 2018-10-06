@@ -8,17 +8,17 @@ body{
 .CV{
     padding-top: 100px;
     max-width: 900px;
-    background: beige  ;
+    background: aliceblue;
 }
 header {
     position: fixed;
     top: 0;
-    width: 100%;
-    background: cadetblue;
+    min-width: 80%;
+    max-width: 1024px;
+    background: lightslategray;
     z-index: 3;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: fill;
 }
 
 .leftimg {
@@ -33,4 +33,8 @@ header {
 
 article {
     margin: 7px 7px 7px 7px;;
+}
+
+footer{
+    margin: 7px 7px 7px 7px;
 }
