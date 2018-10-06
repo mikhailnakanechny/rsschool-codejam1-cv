@@ -1,7 +1,36 @@
-#wrapper {
-    max-width: 960px;
-    margin: auto;
+body{
+    max-width: 1024px;
+    background: lightslategray;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.CV{
+    padding-top: 100px;
+    max-width: 900px;
+    background: beige  ;
 }
 header {
-    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: cadetblue;
+    z-index: 3;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leftimg {
+    float:left;
+    margin: 7px 7px 7px 7px;
+}
+
+.hello{
+    margin: 7px 7px 7px 7px;
+    width: 90%;
+}
+
+article {
+    margin: 7px 7px 7px 7px;;
 }
