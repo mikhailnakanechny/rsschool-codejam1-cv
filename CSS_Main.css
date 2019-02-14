@@ -1,0 +1,50 @@
+body {
+    max-width: 1024px;
+    background: lightslategray;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    background: lightslategray;
+    z-index: 3;
+    text-align: center;
+    margin-left: fill;
+    max-height: 85px;
+}
+
+article {
+    margin: 7px 7px 7px 7px;;
+}
+
+footer {
+    margin: 7px 7px 7px 7px;
+}
+.skromno {
+     margin: 2px 2px 2px 2px;
+}
+
+.CV {
+    padding-top: 50px;
+    max-width: 900px;
+    background: aliceblue;
+    padding-bottom: 10px;
+}
+
+.leftimg {
+    float: left;
+    margin: 7px 7px 7px 7px;
+}
+
+.hello {
+    margin: 7px 7px 7px 7px;
+    width: 90%;
+    height: 270px;
+    text-align: justify;
+}
+
+
